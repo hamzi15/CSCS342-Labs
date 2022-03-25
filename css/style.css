@@ -1,18 +1,17 @@
 /* 
 Write your CSS here
  */
-#task1p1{
+h1{
     color: blue;
     background-color: gold;
     text-decoration: underline;
 }
 
-#task1p2{
+h2{
     color: purple;
     font-weight: bold;
     size: 25px;
     border-color: orange;
-    border-width:5px;
     border-style: solid;
 }
 
@@ -21,7 +20,6 @@ Write your CSS here
     height: 200px;
     background-color: gray;
     border-color: black;
-    border-width:5px;
     border-style: solid;
 }
 #task1p3 p{
@@ -31,7 +29,6 @@ Write your CSS here
 #task1p4{
     background-color: black;
     border-color: lightgreen;
-    border-width:5px;
     border-style: solid;
     font-size: 20px;
     color:white;
@@ -48,7 +45,7 @@ Write your CSS here
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#makeBulletsDisappear{
+ul{
     list-style-type: none;
 }
 
@@ -64,3 +61,16 @@ Write your CSS here
 #task4:active{
     color:hotpink;
 }
+
+#this-one{
+    position: relative;
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 0.05em;
+    color:gainsboro;
+    background-color: black;
+  }
+  
